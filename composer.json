@@ -1,0 +1,25 @@
+{
+  "name": "wqq77544/test",
+  "description": "the new test",
+  "type": "library",
+  "keywords": [
+    "test"
+  ],
+  "homepage": "https://github.com/wqq77544/test",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "wqq77544",
+      "email": "29163217@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ford\\Escape\\": "src/Ford/Escape",
+      "Ford\\Fusion\\": "src/Ford/Fusion"
+    }
+  }
+}
